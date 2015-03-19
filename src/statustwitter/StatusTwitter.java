@@ -25,6 +25,7 @@ public class StatusTwitter {
         for (Status status : result.getTweets()) {
             System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
         }
+        System.out.println("Chao");
         System.out.println("Hola");
     }
 }
